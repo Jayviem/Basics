@@ -12,7 +12,7 @@ int main()
 {
  setlocale (LC_ALL, "Portuguese");
 
-	int temperaturas = 3;
+    int temperaturas = 3;
     float soma = 0;
     float temperatura;
 
