@@ -1,7 +1,9 @@
 /* Crie um programa que receba 5 valores de temperatura, correspondente à
 temperatura máxima e mínima de 5 locais, guardando as mesmas em vetores.
 Calcule a média de cada local e guarde a média calculada num novo vetor. Nota:
-Deverá ter 3 vetores para, temperaturas mínimas, máximas e média. */#include <iostream>
+Deverá ter 3 vetores para, temperaturas mínimas, máximas e média. */
+
+#include <iostream>
 #include <locale>
 
 using namespace std;
