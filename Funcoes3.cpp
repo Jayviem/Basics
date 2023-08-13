@@ -3,7 +3,7 @@
 
 using namespace std;
 
-/* Crie uma funÁ„o que possibilite realizar a convers„o para Dollars de um valor dado em Euros; */
+/* Crie uma fun√ß√£o que possibilite realizar a convers√£o para Dollars de um valor dado em Euros; */
 
 	double EurovsDolar(double Euros) {
     const double CONVERSAO = 0.91;
@@ -22,7 +22,7 @@ int main()
 
     Dolar = EurovsDolar(Euro);
 
-    cout << "O valor em dÛlares È: " << Dolar << "$";
+    cout << "O valor em d√≥lares √©: " << Dolar << "$";
 
  return 0;
 }
