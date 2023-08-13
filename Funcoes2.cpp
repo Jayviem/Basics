@@ -3,9 +3,9 @@
 
 using namespace std;
 
-/* Crie uma funÁ„o que verifique se um determinado n˙mero, inserido pelo utilizador, È primo.
-Se for primo, retorne o quadrado desse n˙mero, por ex: 7 -> 7 * 7 = 49, utilizando outra
-funÁ„o, caso n„o seja primo, retorne 0; */
+/* Crie uma fun√ß√£o que verifique se um determinado n√∫mero, inserido pelo utilizador, √© primo.
+Se for primo, retorne o quadrado desse n√∫mero, por ex: 7 -> 7 * 7 = 49, utilizando outra
+fun√ß√£o, caso n√£o seja primo, retorne 0; */
 
 	bool ePrimo(int numero) 
 	{
@@ -43,7 +43,7 @@ setlocale (LC_ALL, "Portuguese");
 
     int numero;
 
-    cout << "Indique um n˙mero: ";
+    cout << "Indique um n√∫mero: ";
     cin >> numero;
 
     int resultado = Quadrado(numero);
