@@ -4,7 +4,7 @@
 
 using namespace std;
 
-/* Dado um vetor de 10 inteiros, crie uma função que receba o vetor e retorne o maior
+/* Dado um vetor de 10 inteiros, crie uma funÃ§Ã£o que receba o vetor e retorne o maior
 elemento encontrado; */
 
 int maiorElemento(int vector[], int tamanho) 
@@ -38,13 +38,13 @@ int main()
 
     int maior = maiorElemento(vector, tamanho);
 
-    cout << "O vector de 10 inteiros é: ";
+    cout << "O vector de 10 inteiros Ã©: ";
     for (int i = 0; i < tamanho; i++) 
 	{
         cout << vector[i] << " ";
     }
 
-    cout << endl << "O maior elemento do vector é: " << maior << endl;
+    cout << endl << "O maior elemento do vector Ã©: " << maior << endl;
 
  return 0;
 }
