@@ -3,9 +3,9 @@
 
 using namespace std;
 
-/* Crie uma função que receba uma operação aritmética a realizar e dois números para calcular
-as 4 operações aritméticas. A função deverá retornar o resultado da operação. Nota: Utilize
-a estrutura “switch-case” para escolher a operação a realizar. */
+/* Crie uma funÃ§Ã£o que receba uma operaÃ§Ã£o aritmÃ©tica a realizar e dois nÃºmeros para calcular
+as 4 operaÃ§Ãµes aritmÃ©ticas. A funÃ§Ã£o deverÃ¡ retornar o resultado da operaÃ§Ã£o. Nota: Utilize
+a estrutura â€œswitch-caseâ€ para escolher a operaÃ§Ã£o a realizar. */
 
 	double calcular(char operacao, double num1, double num2) 
 	{
@@ -26,7 +26,7 @@ a estrutura “switch-case” para escolher a operação a realizar. */
             resultado = num1 / num2;
             break;
         default:
-            cout << "Operação inválida" << endl;
+            cout << "OperaÃ§Ã£o invÃ¡lida" << endl;
             return 0;
     }
 
@@ -40,13 +40,13 @@ int main()
     double num1, num2, resultado;
     char operacao;
 
-    cout << "Indique a operação (+, -, *, /): ";
+    cout << "Indique a operaÃ§Ã£o (+, -, *, /): ";
     cin >> operacao;
 
-    cout << "Indique o primeiro número: ";
+    cout << "Indique o primeiro nÃºmero: ";
     cin >> num1;
 
-    cout << "Indique o segundo número: ";
+    cout << "Indique o segundo nÃºmero: ";
     cin >> num2;
 
     resultado = calcular(operacao, num1, num2);
